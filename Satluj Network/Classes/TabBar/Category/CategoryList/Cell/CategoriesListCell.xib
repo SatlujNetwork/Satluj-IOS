@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OPENSANS-REGULAR_0.TTF">
+            <string>OpenSans</string>
+        </array>
+        <array key="OPENSANS-SEMIBOLD_0.TTF">
+            <string>OpenSans-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CategoriesListCell" customModule="Satluj_Network" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="554" height="263.5"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="554" height="263.5"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HL4-YS-T3G">
+                        <rect key="frame" x="10" y="5" width="534" height="248.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="8iG-Pf-oNJ" customClass="CustomImage" customModule="Satluj_Network" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="534" height="213.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8iG-Pf-oNJ" secondAttribute="height" multiplier="1:0.4" id="1oe-bE-ZV5"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmP-KY-9Tt">
+                                <rect key="frame" x="244.5" y="84.5" width="45" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="0pb-a4-Qog"/>
+                                    <constraint firstAttribute="width" secondItem="pmP-KY-9Tt" secondAttribute="height" multiplier="1:1" id="QTA-hY-0Au"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="play"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oscar 2022: Academy announces 'fan-favourite film' honour, here's how you can vote for it" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fi4-To-f21">
+                                <rect key="frame" x="10" y="223.5" width="514" height="0.0"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uhv-gq-P1X">
+                                <rect key="frame" x="10" y="238.5" width="100" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="aa1-j6-M5O"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="11"/>
+                                <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="10 Feb 2022" image="time">
+                                    <color key="titleColor" name="TextLightColour"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6P9-uE-Tbx">
+                                <rect key="frame" x="494" y="231" width="30" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="SV3-0e-SGE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="11"/>
+                                <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="58" image="likes">
+                                    <color key="titleColor" name="TextLightColour"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Uhv-gq-P1X" firstAttribute="leading" secondItem="fi4-To-f21" secondAttribute="leading" id="1id-Tz-yqx"/>
+                            <constraint firstAttribute="bottom" secondItem="Uhv-gq-P1X" secondAttribute="bottom" constant="10" id="7uy-8I-qtA"/>
+                            <constraint firstItem="Uhv-gq-P1X" firstAttribute="top" secondItem="fi4-To-f21" secondAttribute="bottom" constant="15" id="MYQ-2N-FC4"/>
+                            <constraint firstItem="6P9-uE-Tbx" firstAttribute="centerY" secondItem="Uhv-gq-P1X" secondAttribute="centerY" id="MoO-EA-MLH"/>
+                            <constraint firstItem="8iG-Pf-oNJ" firstAttribute="leading" secondItem="HL4-YS-T3G" secondAttribute="leading" id="O3Y-YF-POj"/>
+                            <constraint firstItem="fi4-To-f21" firstAttribute="leading" secondItem="HL4-YS-T3G" secondAttribute="leading" constant="10" id="RlU-pV-HpK"/>
+                            <constraint firstAttribute="trailing" secondItem="fi4-To-f21" secondAttribute="trailing" constant="10" id="T8X-b6-1qU"/>
+                            <constraint firstItem="8iG-Pf-oNJ" firstAttribute="top" secondItem="HL4-YS-T3G" secondAttribute="top" id="aYN-MC-zbp"/>
+                            <constraint firstItem="pmP-KY-9Tt" firstAttribute="centerX" secondItem="8iG-Pf-oNJ" secondAttribute="centerX" id="dEY-oF-mqo"/>
+                            <constraint firstAttribute="trailing" secondItem="8iG-Pf-oNJ" secondAttribute="trailing" id="drV-lN-NHN"/>
+                            <constraint firstItem="6P9-uE-Tbx" firstAttribute="trailing" secondItem="fi4-To-f21" secondAttribute="trailing" id="gD1-H3-7JN"/>
+                            <constraint firstItem="pmP-KY-9Tt" firstAttribute="centerY" secondItem="8iG-Pf-oNJ" secondAttribute="centerY" id="lxf-RY-Zuw"/>
+                            <constraint firstItem="fi4-To-f21" firstAttribute="top" secondItem="8iG-Pf-oNJ" secondAttribute="bottom" constant="10" id="suZ-l6-Adx"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" name="ShadowColour"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                <point key="value" x="0.0" y="3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="NO"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="HL4-YS-T3G" secondAttribute="trailing" constant="10" id="Suu-eC-6NV"/>
+                <constraint firstAttribute="bottom" secondItem="HL4-YS-T3G" secondAttribute="bottom" constant="10" id="a57-K2-DJf"/>
+                <constraint firstItem="HL4-YS-T3G" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="ahM-nu-ZoU"/>
+                <constraint firstItem="HL4-YS-T3G" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="vvK-UT-OJa"/>
+            </constraints>
+            <size key="customSize" width="554" height="282"/>
+            <connections>
+                <outlet property="btnLike" destination="6P9-uE-Tbx" id="a9q-I1-Ljb"/>
+                <outlet property="btnTime" destination="Uhv-gq-P1X" id="tjB-oT-73q"/>
+                <outlet property="btnVideo" destination="pmP-KY-9Tt" id="e88-m6-2SJ"/>
+                <outlet property="imgCategoryList" destination="8iG-Pf-oNJ" id="Ocd-4r-mqh"/>
+                <outlet property="lblNews" destination="fi4-To-f21" id="6p3-rb-dED"/>
+            </connections>
+            <point key="canvasLocation" x="243.47826086956525" y="131.25"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="8iG-Pf-oNJ">
+            <size key="intrinsicContentSize" width="1733" height="1300"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="1" width="1733" height="1300"/>
+        <image name="likes" width="11" height="9"/>
+        <image name="play" width="31.5" height="31.5"/>
+        <image name="time" width="7.5" height="7.5"/>
+        <namedColor name="ShadowColour">
+            <color red="0.0" green="0.0" blue="0.0" alpha="0.050000000000000003" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextLightColour">
+            <color red="0.58823529411764708" green="0.58823529411764708" blue="0.58823529411764708" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

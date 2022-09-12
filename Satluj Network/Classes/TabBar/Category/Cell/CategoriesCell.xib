@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OPENSANS-SEMIBOLD_0.TTF">
+            <string>OpenSans-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CategoriesCell" reuseIdentifier="CategoriesCell" id="gTV-IL-0wX" customClass="CategoriesCell" customModule="Satluj_Network" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="175" height="166"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="175" height="166"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="7" translatesAutoresizingMaskIntoConstraints="NO" id="WU5-IT-pvp" customClass="CustomImage" customModule="Satluj_Network" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="175" height="166"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Entertainment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVk-6L-gNs">
+                        <rect key="frame" x="10" y="138.5" width="155" height="17.5"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="WU5-IT-pvp" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="0IZ-eP-dGO"/>
+                <constraint firstItem="WU5-IT-pvp" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="2MG-lB-Qe4"/>
+                <constraint firstAttribute="bottom" secondItem="sVk-6L-gNs" secondAttribute="bottom" constant="10" id="4gR-zw-ChS"/>
+                <constraint firstAttribute="bottom" secondItem="WU5-IT-pvp" secondAttribute="bottom" id="59N-cY-0uD"/>
+                <constraint firstAttribute="trailing" secondItem="sVk-6L-gNs" secondAttribute="trailing" constant="10" id="KMv-Fn-C7y"/>
+                <constraint firstAttribute="trailing" secondItem="WU5-IT-pvp" secondAttribute="trailing" id="kCI-St-ppN"/>
+                <constraint firstItem="sVk-6L-gNs" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="kZU-tk-qIj"/>
+            </constraints>
+            <size key="customSize" width="175" height="166"/>
+            <connections>
+                <outlet property="imgCategory" destination="WU5-IT-pvp" id="Wob-BU-38Y"/>
+                <outlet property="lblTitle" destination="sVk-6L-gNs" id="fch-gG-CYV"/>
+            </connections>
+            <point key="canvasLocation" x="222.46376811594206" y="90.401785714285708"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="WU5-IT-pvp">
+            <size key="intrinsicContentSize" width="759" height="422"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="7" width="759" height="422"/>
+    </resources>
+</document>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeNewsFooterCell" id="gTV-IL-0wX" customClass="HomeNewsFooterCell" customModule="Satluj_Network" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="453" height="92"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="453" height="92"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iu6-er-PSV" customClass="AdvancedPageControlView" customModule="AdvancedPageControl">
+                        <rect key="frame" x="124.5" y="38.5" width="204" height="15"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="Flg-Tw-DMd"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Iu6-er-PSV" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="45%" id="Vgh-iR-dVR"/>
+                <constraint firstItem="Iu6-er-PSV" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="da9-YC-uam"/>
+                <constraint firstItem="Iu6-er-PSV" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="jVq-Cv-rqX"/>
+            </constraints>
+            <size key="customSize" width="453" height="92"/>
+            <connections>
+                <outlet property="pageControl" destination="Iu6-er-PSV" id="3sR-RK-xhB"/>
+            </connections>
+            <point key="canvasLocation" x="200.72463768115944" y="67.633928571428569"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--TabbarVC-->
+        <scene sceneID="csg-D6-267">
+            <objects>
+                <tabBarController storyboardIdentifier="TabbarVC" id="HXR-uD-81a" customClass="TabbarVC" customModule="Satluj_Network" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UoC-1y-oxX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" name="SegmentSelectedColour"/>
+                        <color key="selectedImageTintColor" name="SegmentSelectedColour"/>
+                        <tabBarAppearance key="standardAppearance" backgroundEffect="systemUltraThinMaterialDark">
+                            <color key="backgroundColor" name="NavigationBarColour"/>
+                            <color key="selectionIndicatorTintColor" name="SegmentSelectedColour"/>
+                        </tabBarAppearance>
+                        <tabBarAppearance key="scrollEdgeAppearance">
+                            <color key="backgroundColor" name="NavigationBarColour"/>
+                            <color key="selectionIndicatorTintColor" name="SegmentSelectedColour"/>
+                        </tabBarAppearance>
+                    </tabBar>
+                    <connections>
+                        <segue destination="JCL-zq-gqE" kind="relationship" relationship="viewControllers" id="G5f-cr-loZ"/>
+                        <segue destination="VhE-pB-wLl" kind="relationship" relationship="viewControllers" id="ZxC-00-oOp"/>
+                        <segue destination="5LE-k3-db7" kind="relationship" relationship="viewControllers" id="7nG-VS-ygS"/>
+                        <segue destination="Ccw-hl-PQ8" kind="relationship" relationship="viewControllers" id="2Sn-rT-vkA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t9W-as-0wb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1091" y="-775"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="9bb-XH-0nH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JCL-zq-gqE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="deselect_home" selectedImage="select_home" id="Agj-1T-GdD"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tdK-xr-v2V">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="HjZ-g0-6Sa" kind="relationship" relationship="rootViewController" id="1O6-se-twi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SUX-tz-kV6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2007.2463768115942" y="-31.473214285714285"/>
+        </scene>
+        <!--home-->
+        <scene sceneID="ile-DF-5ou">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" referencedIdentifier="home" id="HjZ-g0-6Sa" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="MRz-6S-AuO"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hzu-Wj-cYF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2007" y="348"/>
+        </scene>
+        <!--video-->
+        <scene sceneID="aPy-Hd-KPQ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Video" referencedIdentifier="video" id="vkh-Cf-upB" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="vDI-mQ-f96"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HqM-UO-DFq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1206" y="340"/>
+        </scene>
+        <!--Video-->
+        <scene sceneID="D8n-oW-bMJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VhE-pB-wLl" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Video" image="deselect_video" selectedImage="select_video" id="QW9-sz-WDd"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FLU-5u-nWc">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vkh-Cf-upB" kind="relationship" relationship="rootViewController" id="QRz-4a-DLM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P2J-vF-etd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1210" y="-31"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="YFz-ab-xPx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ccw-hl-PQ8" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" image="deselect_profile" selectedImage="select_profile" id="iPY-Ep-dlx"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ieq-RT-Cty">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="jyk-2k-t5f" kind="relationship" relationship="rootViewController" id="E9O-tJ-9zn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rMm-95-Vm8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="571" y="-31"/>
+        </scene>
+        <!--profile-->
+        <scene sceneID="aFC-Mn-7xf">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Profile" referencedIdentifier="profile" id="jyk-2k-t5f" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Idc-gK-W8K"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xPv-g9-rtC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="592" y="311"/>
+        </scene>
+        <!--Categories-->
+        <scene sceneID="Ukv-TM-laB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5LE-k3-db7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Categories" image="deselect_category" selectedImage="select_category" id="VpF-K8-aHR"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SSf-da-3hB">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="3gl-G2-Ib3" kind="relationship" relationship="rootViewController" id="NRg-zd-djL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hoF-DW-J0h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-333.33333333333337" y="-31.473214285714285"/>
+        </scene>
+        <!--category-->
+        <scene sceneID="tnh-UB-lVA">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Categories" referencedIdentifier="category" id="3gl-G2-Ib3" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="wHg-Yp-5l8"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gEk-v7-2KI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-307" y="332"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="deselect_category" width="14.5" height="14.5"/>
+        <image name="deselect_home" width="14.5" height="14.5"/>
+        <image name="deselect_profile" width="14.5" height="14.5"/>
+        <image name="deselect_video" width="19.5" height="14.5"/>
+        <image name="select_category" width="14.5" height="14.5"/>
+        <image name="select_home" width="14.5" height="14.5"/>
+        <image name="select_profile" width="14.5" height="14.5"/>
+        <image name="select_video" width="19.5" height="14.5"/>
+        <namedColor name="NavigationBarColour">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="SegmentSelectedColour">
+            <color red="0.0039215686274509803" green="0.18431372549019609" blue="0.41960784313725491" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

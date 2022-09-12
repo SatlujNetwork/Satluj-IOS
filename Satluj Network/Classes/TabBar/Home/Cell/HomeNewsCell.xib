@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OPENSANS-BOLD_0.TTF">
+            <string>OpenSans-Bold</string>
+        </array>
+        <array key="OPENSANS-REGULAR_0.TTF">
+            <string>OpenSans</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeNewsCell" id="gTV-IL-0wX" customClass="HomeNewsCell" customModule="Satluj_Network" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="518" height="165"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="518" height="165"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fJQ-7J-3x6">
+                        <rect key="frame" x="10" y="5" width="498" height="150"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="flc-FV-gK4" customClass="CustomImage" customModule="Satluj_Network" customModuleProvider="target">
+                                <rect key="frame" x="374.5" y="10" width="103.5" height="103.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="flc-FV-gK4" secondAttribute="height" multiplier="1:1" id="8QJ-Ez-fr0"/>
+                                    <constraint firstAttribute="width" constant="103.5" id="wSK-K8-QG4"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" name="TextColour"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hax-n5-gWX">
+                                <rect key="frame" x="430" y="126" width="48" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="3b1-Pf-ENY"/>
+                                    <constraint firstAttribute="width" constant="48" id="VeN-R4-p2A"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="11"/>
+                                <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="like">
+                                    <color key="titleColor" name="TextLightColour"/>
+                                </state>
+                                <state key="selected" image="likes"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="540-MM-1Op">
+                                <rect key="frame" x="20" y="125" width="100" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="4cH-tX-K39"/>
+                                    <constraint firstAttribute="height" constant="15" id="tZ5-d6-jwE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="11"/>
+                                <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="10 Feb 2022" image="time">
+                                    <color key="titleColor" name="TextLightColour"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2022 Digital Growth Award Nominations Open" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Buo-Ne-6sX">
+                                <rect key="frame" x="20" y="10" width="334.5" height="41"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="15"/>
+                                <color key="textColor" name="TextColour"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="World Council member associations and credit unions and encouraged to apply" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVl-z1-0W1">
+                                <rect key="frame" x="20" y="61" width="334.5" height="38.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38.5" id="JYT-2D-UyX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                                <color key="textColor" name="TextColour"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fVl-z1-0W1" firstAttribute="top" secondItem="Buo-Ne-6sX" secondAttribute="bottom" constant="10" id="7P7-Px-Ai9"/>
+                            <constraint firstItem="Buo-Ne-6sX" firstAttribute="top" secondItem="fJQ-7J-3x6" secondAttribute="top" constant="10" id="Aau-zP-wQC"/>
+                            <constraint firstItem="540-MM-1Op" firstAttribute="leading" secondItem="fJQ-7J-3x6" secondAttribute="leading" constant="20" id="D82-a9-2Ng"/>
+                            <constraint firstItem="540-MM-1Op" firstAttribute="centerY" secondItem="hax-n5-gWX" secondAttribute="centerY" constant="-2.5" id="FJd-8t-aFL"/>
+                            <constraint firstItem="Buo-Ne-6sX" firstAttribute="leading" secondItem="fJQ-7J-3x6" secondAttribute="leading" constant="20" symbolic="YES" id="Grp-4L-AUF"/>
+                            <constraint firstItem="fVl-z1-0W1" firstAttribute="leading" secondItem="Buo-Ne-6sX" secondAttribute="leading" id="IJj-2X-77c"/>
+                            <constraint firstItem="Buo-Ne-6sX" firstAttribute="leading" secondItem="fJQ-7J-3x6" secondAttribute="leading" constant="20" id="Mdp-Xk-DdK"/>
+                            <constraint firstItem="fVl-z1-0W1" firstAttribute="top" secondItem="Buo-Ne-6sX" secondAttribute="bottom" constant="10" id="N52-uM-Ucd"/>
+                            <constraint firstItem="540-MM-1Op" firstAttribute="top" secondItem="fVl-z1-0W1" secondAttribute="bottom" constant="25.5" id="NrE-mf-Xhb"/>
+                            <constraint firstItem="fVl-z1-0W1" firstAttribute="top" secondItem="Buo-Ne-6sX" secondAttribute="bottom" constant="10" id="OAJ-0K-cO0"/>
+                            <constraint firstItem="flc-FV-gK4" firstAttribute="top" secondItem="fJQ-7J-3x6" secondAttribute="top" constant="10" id="ODa-ZV-bWc"/>
+                            <constraint firstItem="flc-FV-gK4" firstAttribute="leading" secondItem="fVl-z1-0W1" secondAttribute="trailing" constant="20" id="Xbd-sQ-Ml3"/>
+                            <constraint firstItem="flc-FV-gK4" firstAttribute="leading" secondItem="Buo-Ne-6sX" secondAttribute="trailing" constant="20" id="aVM-CQ-nVS"/>
+                            <constraint firstAttribute="trailing" secondItem="flc-FV-gK4" secondAttribute="trailing" constant="20" id="d9f-CL-L0d"/>
+                            <constraint firstItem="hax-n5-gWX" firstAttribute="top" secondItem="flc-FV-gK4" secondAttribute="bottom" constant="12.5" id="lrJ-Hm-TlH"/>
+                            <constraint firstItem="flc-FV-gK4" firstAttribute="leading" secondItem="Buo-Ne-6sX" secondAttribute="trailing" constant="20" id="p3w-e5-10n"/>
+                            <constraint firstItem="fVl-z1-0W1" firstAttribute="leading" secondItem="fJQ-7J-3x6" secondAttribute="leading" constant="20" symbolic="YES" id="qnm-gj-cf0"/>
+                            <constraint firstItem="hax-n5-gWX" firstAttribute="trailing" secondItem="flc-FV-gK4" secondAttribute="trailing" id="sFW-vG-Zk2"/>
+                            <constraint firstItem="Buo-Ne-6sX" firstAttribute="top" secondItem="flc-FV-gK4" secondAttribute="top" id="twV-wm-aMA"/>
+                            <constraint firstItem="fVl-z1-0W1" firstAttribute="trailing" secondItem="Buo-Ne-6sX" secondAttribute="trailing" id="v1U-5f-tne"/>
+                            <constraint firstAttribute="bottom" secondItem="540-MM-1Op" secondAttribute="bottom" constant="10" id="zU0-Ej-hsr"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" name="ShadowColour"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                <point key="value" x="0.0" y="3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="fJQ-7J-3x6" secondAttribute="trailing" constant="10" id="ELd-m6-cdh"/>
+                <constraint firstItem="fJQ-7J-3x6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="KRK-EJ-IzW"/>
+                <constraint firstAttribute="bottom" secondItem="fJQ-7J-3x6" secondAttribute="bottom" constant="10" id="rjD-gQ-Gc5"/>
+                <constraint firstItem="fJQ-7J-3x6" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="zSZ-im-gCh"/>
+            </constraints>
+            <size key="customSize" width="518" height="215"/>
+            <connections>
+                <outlet property="descriptionLbl" destination="fVl-z1-0W1" id="8uj-zy-sdU"/>
+                <outlet property="likeCountBtn" destination="hax-n5-gWX" id="t4m-ZP-L9r"/>
+                <outlet property="newsImg" destination="flc-FV-gK4" id="o1F-58-Vrw"/>
+                <outlet property="timeBtn" destination="540-MM-1Op" id="f3P-pN-LR6"/>
+                <outlet property="titleLbl" destination="Buo-Ne-6sX" id="jbB-CD-4n9"/>
+            </connections>
+            <point key="canvasLocation" x="259.4202898550725" y="108.81696428571428"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="flc-FV-gK4">
+            <size key="intrinsicContentSize" width="1880" height="1253"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="4" width="1880" height="1253"/>
+        <image name="like" width="14.5" height="12.5"/>
+        <image name="likes" width="11" height="9"/>
+        <image name="time" width="7.5" height="7.5"/>
+        <namedColor name="ShadowColour">
+            <color red="0.0" green="0.0" blue="0.0" alpha="0.05000000074505806" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextColour">
+            <color red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextLightColour">
+            <color red="0.58823529411764708" green="0.58823529411764708" blue="0.58823529411764708" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

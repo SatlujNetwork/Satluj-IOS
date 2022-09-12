@@ -1,0 +1,133 @@
+PODS:
+  - AdvancedPageControl (0.9.0)
+  - Alamofire (5.5.0)
+  - AppAuth (1.5.0):
+    - AppAuth/Core (= 1.5.0)
+    - AppAuth/ExternalUserAgent (= 1.5.0)
+  - AppAuth/Core (1.5.0)
+  - AppAuth/ExternalUserAgent (1.5.0):
+    - AppAuth/Core
+  - DropDown (2.3.13)
+  - FBAEMKit (13.1.0):
+    - FBSDKCoreKit_Basics (= 13.1.0)
+  - FBSDKCoreKit (13.1.0):
+    - FBAEMKit (= 13.1.0)
+    - FBSDKCoreKit_Basics (= 13.1.0)
+  - FBSDKCoreKit_Basics (13.1.0)
+  - FBSDKLoginKit (13.1.0):
+    - FBSDKCoreKit (= 13.1.0)
+  - FloatingButtonPOP-swift (1.0.0)
+  - GoogleSignIn (6.1.0):
+    - AppAuth (~> 1.4)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.2.3):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - GTMSessionFetcher/Core (1.7.0)
+  - KMPageMenu (0.0.2)
+  - libwebp (1.2.1):
+    - libwebp/demux (= 1.2.1)
+    - libwebp/mux (= 1.2.1)
+    - libwebp/webp (= 1.2.1)
+  - libwebp/demux (1.2.1):
+    - libwebp/webp
+  - libwebp/mux (1.2.1):
+    - libwebp/demux
+  - libwebp/webp (1.2.1)
+  - lottie-ios (3.3.0)
+  - Realm (10.25.0):
+    - Realm/Headers (= 10.25.0)
+  - Realm/Headers (10.25.0)
+  - RealmSwift (10.25.0):
+    - Realm (= 10.25.0)
+  - ScrollableSegmentedControl (1.5.0)
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
+  - SDWebImageWebPCoder (0.8.4):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.10)
+  - SVProgressHUD (2.2.5)
+  - SwiftyStoreKit (0.16.1)
+  - TPKeyboardAvoiding (1.3.5)
+  - UIScrollView-InfiniteScroll (1.1.0)
+  - youtube-ios-player-helper (1.0.4)
+
+DEPENDENCIES:
+  - AdvancedPageControl
+  - Alamofire
+  - DropDown
+  - FBSDKLoginKit
+  - FloatingButtonPOP-swift
+  - GoogleSignIn
+  - KMPageMenu
+  - lottie-ios
+  - RealmSwift
+  - ScrollableSegmentedControl
+  - SDWebImage
+  - SDWebImageWebPCoder
+  - SVProgressHUD
+  - SwiftyStoreKit
+  - TPKeyboardAvoiding
+  - UIScrollView-InfiniteScroll
+  - youtube-ios-player-helper
+
+SPEC REPOS:
+  trunk:
+    - AdvancedPageControl
+    - Alamofire
+    - AppAuth
+    - DropDown
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - FBSDKLoginKit
+    - FloatingButtonPOP-swift
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - KMPageMenu
+    - libwebp
+    - lottie-ios
+    - Realm
+    - RealmSwift
+    - ScrollableSegmentedControl
+    - SDWebImage
+    - SDWebImageWebPCoder
+    - SVProgressHUD
+    - SwiftyStoreKit
+    - TPKeyboardAvoiding
+    - UIScrollView-InfiniteScroll
+    - youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  AdvancedPageControl: 39e3b32b00b2d324c534f8e17cc6c5be9abe84b7
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  AppAuth: 80317d99ac7ff2801a2f18ff86b48cd315ed465d
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  FBAEMKit: 3be32ffb79fe7c0603fed00d81742b23241e89a5
+  FBSDKCoreKit: eff97dea778dbe6cc4498959cffb619c75675102
+  FBSDKCoreKit_Basics: c151609a1cf6976a5958febcf0043266a8fd5151
+  FBSDKLoginKit: 42932c7ad6f6b91854fc0a6bcc79b7e807bcde4b
+  FloatingButtonPOP-swift: 406bc011ed894f1c5f2b59a679ca0fad2d2452db
+  GoogleSignIn: c90b5bec45e780f54c6a8e1e3c182a86e3dda69d
+  GTMAppAuth: 987526d41b07efb1bedda5e936fe0cb718a03113
+  GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
+  KMPageMenu: 4dee4efb6d7db15f5194118ba8ce9a3c3569e196
+  libwebp: 98a37e597e40bfdb4c911fc98f2c53d0b12d05fc
+  lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
+  Realm: 22a82aaa0e73f3483e3a6df32549c4c5cd34aa63
+  RealmSwift: c2a635212400923edd3f828b8a37d55d3eb31863
+  ScrollableSegmentedControl: 2e64bbe8968a7fcd8aae5014434481464fcdfe60
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+  SDWebImageWebPCoder: f93010f3f6c031e2f8fb3081ca4ee6966c539815
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
+  TPKeyboardAvoiding: d55b3ea7b362540af8fcf36aa3ed2e87bf210cc6
+  UIScrollView-InfiniteScroll: 3ef456bcbe759c19f510a383cff96e6647c98c98
+  youtube-ios-player-helper: e9b97535e816db3152179d84d999bc1807ecd689
+
+PODFILE CHECKSUM: 23964a6c0399887b83a70dceead8bbfdeff78bf3
+
+COCOAPODS: 1.11.3
